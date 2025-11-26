@@ -1,5 +1,5 @@
 
-name = "smart-bin-worker"
+name = "smartbin"
 main = "src/worker.js"
 compatibility_date = "2025-11-25"
 workers_dev = true  # can turn off once routing to custom domain
