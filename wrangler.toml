@@ -15,4 +15,4 @@ bucket_name = "smart-bin-photos"
 [[d1_databases]]
 binding = "BINS_DB"
 database_name = "smart-bin-db"
-database_id = "YOUR_D1_DATABASE_ID"
+database_id = "fc3e7bd1-0d89-4589-b7e4-b0678b37b4b2"
