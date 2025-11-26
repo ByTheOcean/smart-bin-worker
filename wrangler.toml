@@ -1,1 +1,18 @@
 
+name = "smart-bin-worker"
+main = "src/worker.js"
+compatibility_date = "2025-11-25"
+workers_dev = true  # can turn off once routing to custom domain
+
+account_id = "dc3e25958ec7cdebd7580fa737af87ef"
+
+# R2 bucket for photos
+[[r2_buckets]]
+binding = "BINS_BUCKET"
+bucket_name = "smart-bin-photos"
+
+# D1 database for bin metadata
+[[d1_databases]]
+binding = "BINS_DB"
+database_name = "smart-bin-db"
+database_id = "YOUR_D1_DATABASE_ID"
